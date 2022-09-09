@@ -4,8 +4,8 @@ A repo to provide a TypeScript lint &amp; format template.
 
 ## Features
 
-- Provide code format using prettier
-- Provide code lint using ESlint
+- Provide code format using **prettier**
+- Provide code lint using **ESlint**
 - Provide **pre-commit** code lint-check & auto-format using **pretty-quick** & **husky**
 - Provide commit message lint using **commitlint**
 
