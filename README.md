@@ -11,6 +11,10 @@ A repo to provide a TypeScript lint &amp; format template.
 
 ## Install
 
+```sh
+npm i
+```
+
 If you just clone this repo, note that it is important to prepare **_husky_**
 
 ```sh
@@ -58,7 +62,3 @@ type(scope?): subject  #scope is optional; multiple scopes are supported (curren
 | revert   | git revert                                    |
 | style    | code lint or format                           |
 | test     | new test                                      |
-
-## TypeScript config
-
-Should modify the file **tsconfig.json** base on Project.
