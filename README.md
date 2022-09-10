@@ -8,6 +8,7 @@ A repo to provide a template about TypeScript lint &amp; format.
 - Provide code lint using **ESlint**
 - Provide **pre-commit** code lint-check & auto-format using **pretty-quick** & **husky**
 - Provide commit message lint using **commitlint**
+- Provide release version and auto-generated CHANGELOG using **standard-version**
 
 ## Install
 
@@ -34,7 +35,8 @@ chmod a+x .husky/pre-commit
 | Name                 | Desc                                           |     Config      |  Ignore Config  |
 | -------------------- | ---------------------------------------------- | :-------------: | :-------------: |
 | npm run prepare      | prepare husky                                  |        -        |        -        |
-| npm run lint         | lint all TypeScript fills                      | .eslintrc.json  |  .eslintignore  |
+| npm run lint         | code lint                                      | .eslintrc.json  |  .eslintignore  |
+| npm run lint:fix     | code lint fix                                  |        -        |        -        |
 | npm run prettier     | check files whether have code style issues     | .prettierc.json | .prettierignore |
 | npm run prettier:fix | re-write the code using prettier format config |        -        |        -        |
 | npm run pretty       | format the staged files                        |        -        |        -        |
@@ -88,5 +90,3 @@ When you're ready to release, run standard-version.
 > fix: which represents bug fixes, and correlates to **patch** version.  
 > feat: which represents a new feature, and correlates to a **minor** version.  
 > feat!:, or fix!:, refactor!:, etc., which represent a breaking change (indicated by the !) and will result in a **major** version.
-
-## Config
