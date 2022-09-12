@@ -1,3 +1,5 @@
 node_modules
 dist
 logs
+# need to ignore this, because it will affect standard-version
+CHANGELOG.md 
