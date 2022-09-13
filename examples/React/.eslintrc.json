@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+
+    "plugin:react/recommended", // eslint-plugin-react
+    "plugin:react/jsx-runtime", // react
+    "plugin:react-hooks/recommended" // eslint-plugin-react-hooks
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "root": true,
+  "rules": {
+    "react/display-name": "off" // displayName for debugging
+  },
+  "settings": {
+    "react": { "version": "detect" }
+  }
+}

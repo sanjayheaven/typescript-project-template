@@ -90,3 +90,13 @@ When you're ready to release, run standard-version.
 > fix: which represents bug fixes, and correlates to **patch** version.  
 > feat: which represents a new feature, and correlates to a **minor** version.  
 > feat!:, or fix!:, refactor!:, etc., which represent a breaking change (indicated by the !) and will result in a **major** version.
+
+## Config
+
+There will be different configurations according to different projects.  
+After initializing the project, please select the configuration you need according to the project.
+
+Now, in the **examples** directory, there are the following configurations for reference.  
+You can directly copy the configuration in the example to the project.
+
+- [x] [React](./examples/React)
