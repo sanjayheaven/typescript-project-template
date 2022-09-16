@@ -100,3 +100,4 @@ Now, in the **examples** directory, there are the following configurations for r
 You can directly copy the configuration in the example to the project.
 
 - [x] [React](./examples/React)
+- [x] [React-Components](./examples/React-Components)
