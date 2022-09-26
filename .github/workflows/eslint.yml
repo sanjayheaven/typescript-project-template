@@ -1,0 +1,23 @@
+name: ESLint
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  eslint:
+    name: Run ESLint for .js, .jsx, .ts, .tsx files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: npm install, lint
+        run: |
+          npm install
+          npm run lint
